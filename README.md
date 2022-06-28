@@ -1,6 +1,6 @@
 ### Calculator
 
-- This is a Microverse project that calculator built with React.
+- This is a Microverse project that entails a calculator built with React.
 
 ## Built With
 
