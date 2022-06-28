@@ -1,6 +1,6 @@
 ### Calculator
 
-- This is a Microverse project that entails a leadership score board.
+- This is a Microverse project that calculator built with React.
 
 ## Built With
 
