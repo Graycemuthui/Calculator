@@ -36,3 +36,9 @@
   color: #fff;
   font-size: 2rem;
 }
+
+.calc-output {
+  font-size: 2rem;
+  color: #fff;
+  margin: 0.7rem;
+}

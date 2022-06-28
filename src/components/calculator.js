@@ -3,6 +3,7 @@ function Calculator() {
     <div className="calculator-structure">
       <div className="output">
         <div className="current-operand" />
+        <span className="calc-output">0</span>
       </div>
       <button type="button">AC</button>
       <button type="button">+/-</button>
