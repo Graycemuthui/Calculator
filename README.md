@@ -8,8 +8,16 @@
 
 ## Getting Started
 
-- Here is the link to the repo [link](https://github.com/Graycemuthui/Calculator)
-- Clone this repo to get started by using git clone(insert the repo here)
+To get a local copy follow these simple steps:
+
+- Clone this repo and open the folder containing the clone in your terminal
+- Run these commands to install the dev dependencies and get started:
+
+```
+$npm install
+$npm start
+```
+- Access the app at localhost:3000
 
 ### Prerequisites
 
