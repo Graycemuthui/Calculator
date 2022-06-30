@@ -1,43 +1,125 @@
+/* eslint-disable jsx-a11y/label-has-associated-control */
 import React from 'react';
+import calculate from '../logic/calculator';
+// import operate from '../logic/operate';
 
-// eslint-disable-next-line react/prefer-stateless-function
 class Calculator extends React.Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      total: 0,
+      next: 0,
+    };
+    this.handleClick = this.handleClick.bind(this);
+    this.handleTextChange = this.handleTextChange.bind(this);
+  }
+
+  handleClick(e) {
+    const operation = e.target.value;
+    const result = calculate(this.state, operation);
+    this.setState(result);
+  }
+
+  handleTextChange(e) {
+    this.setState({
+      total: e.target.value,
+    });
+  }
+
   render() {
+    const { total, next } = this.state;
+
     return (
-      <div className="calculator-structure">
-        <div className="output">
-          <div className="current-operand" />
-          <span className="calc-output">0</span>
-        </div>
-        <button type="button">AC</button>
-        <button type="button">+/-</button>
-        <button type="button">%</button>
-        <button type="button" className="colored-btn">
-          ÷
+      <div className="calculator">
+        <p className="result" onChange={this.handleTextChange}>
+          {next || total || 0}
+        </p>
+        <button type="button" onClick={this.handleClick} value="AC">
+          AC
         </button>
-        <button type="button">7</button>
-        <button type="button">8</button>
-        <button type="button">9</button>
-        <button type="button" className="colored-btn">
+        <button type="button" onClick={this.handleClick} value="+/-">
+          +/-
+        </button>
+        <button type="button" onClick={this.handleClick} value="%">
+          %
+        </button>
+        <button
+          className="operator"
+          type="button"
+          onClick={this.handleClick}
+          value="÷"
+        >
+          /
+        </button>
+        <button type="button" onClick={this.handleClick} value="7">
+          7
+        </button>
+        <button type="button" onClick={this.handleClick} value="8">
+          8
+        </button>
+        <button type="button" onClick={this.handleClick} value="9">
+          9
+        </button>
+        <button
+          className="operator"
+          type="button"
+          onClick={this.handleClick}
+          value="x"
+        >
           x
         </button>
-        <button type="button">4</button>
-        <button type="button">5</button>
-        <button type="button">6</button>
-        <button type="button" className="colored-btn">
+        <button type="button" onClick={this.handleClick} value="4">
+          4
+        </button>
+        <button type="button" onClick={this.handleClick} value="5">
+          5
+        </button>
+        <button type="button" onClick={this.handleClick} value="6">
+          6
+        </button>
+        <button
+          className="operator"
+          type="button"
+          onClick={this.handleClick}
+          value="-"
+        >
           -
         </button>
-        <button type="button">1</button>
-        <button type="button">2</button>
-        <button type="button">3</button>
-        <button type="button" className="colored-btn">
+        <button type="button" onClick={this.handleClick} value="1">
+          1
+        </button>
+        <button type="button" onClick={this.handleClick} value="2">
+          2
+        </button>
+        <button type="button" onClick={this.handleClick} value="3">
+          3
+        </button>
+        <button
+          className="operator"
+          type="button"
+          onClick={this.handleClick}
+          value="+"
+        >
           +
         </button>
-        <button className="large-btn" type="button">
+        <button
+          id="zero-btn"
+          type="button"
+          onClick={this.handleClick}
+          value="0"
+        >
           0
         </button>
-        <button type="button">.</button>
-        <button type="button" className="colored-btn">
+        <button type="button" onClick={this.handleClick} value=".">
+          .
+        </button>
+        <button
+          className="operator"
+          type="button"
+          onClick={this.handleClick}
+          value="="
+        >
           =
         </button>
       </div>
