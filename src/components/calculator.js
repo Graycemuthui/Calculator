@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/label-has-associated-control */
-import React from "react";
-import calculate from "../logic/calculator";
+import React from 'react';
+import calculate from '../logic/calculator';
 
 class Calculator extends React.Component {
   constructor(props) {
