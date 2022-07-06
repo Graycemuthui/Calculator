@@ -37,3 +37,19 @@
 button:hover {
   cursor: pointer;
 }
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background: #1c8564;
+  color: #fff;
+}
+
+.nav-links {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}

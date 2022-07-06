@@ -19,6 +19,7 @@ const Calculator = () => {
 
   return (
     <div className="calculator">
+      <h2>Lets do some Meth oops Math!</h2>
       <p className="result" onChange={handleTextChange}>
         {state.next || state.total || 0}
       </p>
