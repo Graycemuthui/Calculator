@@ -1,5 +1,5 @@
 /* eslint linebreak-style: ["error", "windows"] */
-import './Home.css';
+import "./Home.css";
 
 function Home() {
   return (
