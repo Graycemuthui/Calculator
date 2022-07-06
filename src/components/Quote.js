@@ -1,9 +1,11 @@
+import './Quote.css';
+
 const Ouote = () => (
   <div>
-    <h1>
+    <h3 className="quote-heading">
       Mathematics is not about numbers, equations, computations or algorithms:
       It is about understanding - William Paul Thurston
-    </h1>
+    </h3>
   </div>
 );
 
