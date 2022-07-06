@@ -1,3 +1,4 @@
+/* eslint linebreak-style: ["error", "windows"] */
 /* eslint-disable jsx-a11y/label-has-associated-control */
 import { useState, React } from 'react';
 import calculate from '../logic/calculator';
