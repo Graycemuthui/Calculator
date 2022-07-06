@@ -3,3 +3,11 @@
 .small-heading {
   color: brown;
 }
+
+.small-heading {
+  margin-top: 1.1rem;
+}
+
+.home-section {
+  margin-left: 1.2rem;
+}

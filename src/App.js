@@ -7,17 +7,19 @@ import Nav from './components/Navlinks/Nav';
 import Quote from './components/Navlinks/Quote';
 
 // eslint-disable-next-line react/prefer-stateless-function
-const App = () => (
-  <div className="App">
-    <Router>
-      <Nav />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/quote" element={<Quote />} />
-        <Route path="/calculator" element={<Calculator />} />
-      </Routes>
-    </Router>
-  </div>
-);
+function App() {
+  return (
+    <div className="App">
+      <Router>
+        <Nav />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/quote" element={<Quote />} />
+          <Route path="/calculator" element={<Calculator />} />
+        </Routes>
+      </Router>
+    </div>
+  );
+}
 
 export default App;
