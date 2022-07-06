@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/label-has-associated-control */
 import { useState, React } from 'react';
-import calculate from '../logic/Calculator';
+import calculate from '../logic/calculator';
 import './Calculator.css';
 
 const Calculator = () => {
