@@ -1,7 +1,7 @@
 .nav-bar {
   display: flex;
   flex-direction: row;
-  margin-right: 25px;
+  margin-right: 50px;
   justify-content: flex-end;
 }
 
@@ -10,7 +10,7 @@
   flex-direction: row;
   list-style-type: none;
   border-left: black;
-  gap: 4px;
+  gap: 200px;
   justify-content: flex-end;
   margin-top: 3rem;
 }
