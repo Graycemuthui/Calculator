@@ -38,3 +38,81 @@ exports[`renders correctly 1`] = `
   </ul>
 </nav>
 `;
+
+exports[`test to make sure cimrenders correctly 1`] = `
+<nav
+  className="nav-bar"
+>
+  <ul
+    className="nav-links"
+  >
+    <li>
+      <a
+        href="/"
+        onClick={[Function]}
+      >
+         Home
+      </a>
+    </li>
+    <li
+      className="list"
+    >
+      <a
+        href="/calculator"
+        onClick={[Function]}
+      >
+        Calculator
+      </a>
+    </li>
+    <li
+      className="list"
+    >
+      <a
+        href="/quote"
+        onClick={[Function]}
+      >
+         Quote
+      </a>
+    </li>
+  </ul>
+</nav>
+`;
+
+exports[`test to make sure vacomponent renders correctly 1`] = `
+<nav
+  className="nav-bar"
+>
+  <ul
+    className="nav-links"
+  >
+    <li>
+      <a
+        href="/"
+        onClick={[Function]}
+      >
+         Home
+      </a>
+    </li>
+    <li
+      className="list"
+    >
+      <a
+        href="/calculator"
+        onClick={[Function]}
+      >
+        Calculator
+      </a>
+    </li>
+    <li
+      className="list"
+    >
+      <a
+        href="/quote"
+        onClick={[Function]}
+      >
+         Quote
+      </a>
+    </li>
+  </ul>
+</nav>
+`;

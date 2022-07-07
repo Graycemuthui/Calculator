@@ -3,7 +3,7 @@ import renderer from 'react-test-renderer';
 import { BrowserRouter as Router } from 'react-router-dom';
 import Nav from '../components/Navlinks/Nav';
 
-it('renders correctly', () => {
+it('test to make sure nav component renders correctly', () => {
   const tree = renderer
     .create(
       <Router>

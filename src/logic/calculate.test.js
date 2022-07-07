@@ -1,15 +1,15 @@
 import calculate from './calculate';
 
 test('Testing calculate functions', () => {
-  expect(calculate({ next: '1', operation: '+', total: '7' }, 'AC')).toEqual({
+  expect(calculate({ next: '2', operation: '+', total: '9' }, 'AC')).toEqual({
     next: null,
     operation: null,
     total: null,
   });
-  expect(calculate({ next: '5', operation: '+', total: '2' }, '+')).toEqual({
+  expect(calculate({ next: '6', operation: '+', total: '2' }, '+')).toEqual({
     next: null,
     operation: '+',
-    total: '7',
+    total: '8',
   });
   expect(calculate({ next: '6', operation: 'x', total: '1' }, 'x')).toEqual({
     next: null,
