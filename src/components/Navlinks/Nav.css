@@ -1,0 +1,26 @@
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  margin-right: 50px;
+  justify-content: flex-end;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  border-left: black;
+  gap: 200px;
+  justify-content: flex-end;
+  margin-top: 3rem;
+}
+
+.list {
+  border-left: 3px solid #000 !important;
+  border-color: rgb(17, 12, 12) !important;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}

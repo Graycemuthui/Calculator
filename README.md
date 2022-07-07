@@ -46,4 +46,4 @@ $npm start
 
 ## 📝 License
 
-- This project is [MIT](./MIT.md) licensed.
+- This project is [MIT](https://github.com/Graycemuthui/Math-Magician/blob/router/MIT.md) licensed.
