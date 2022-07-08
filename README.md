@@ -19,6 +19,10 @@ $npm start
 ```
 - Access the app at localhost:3000
 
+### Deployment
+
+- This project has been deployed by Netflify [link](https://62c817f974789f028124aaeb--sparkly-puffpuff-8ca3ee.netlify.app/)
+
 ### Prerequisites
 
 - Git. Which is a open source distributed version control system designed for source code management
