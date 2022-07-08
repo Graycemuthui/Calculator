@@ -22,6 +22,7 @@ $npm start
 ### Deployment
 
 - This project has been deployed by Netflify [link](https://62c817f974789f028124aaeb--sparkly-puffpuff-8ca3ee.netlify.app/)
+- It was also deployed with Heroku [link](https://ggtheascendant.herokuapp.com/)
 
 ### Prerequisites
 
